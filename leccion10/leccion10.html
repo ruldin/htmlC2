@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lección 10: Formularios en HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; }
+        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+        h1 { color: #2c3e50; }
+        form { margin: 16px 0; }
+        label { display: block; margin: 8px 0 4px; }
+        input, textarea, select { width: 100%; padding: 6px; margin-bottom: 12px; }
+        .reto { background: #eaf6ff; border-left: 4px solid #2980b9; padding: 12px; margin-top: 24px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formularios en HTML</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario"></textarea>
+            <label for="opcion">Opción:</label>
+            <select id="opcion" name="opcion">
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="reto">
+            <strong>Reto:</strong> Agrega un campo nuevo al formulario.
+        </div>
+        <p><a href="../index.html">Volver al índice</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lección 11: Eventos en HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; }
+        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+        h1 { color: #2c3e50; }
+        button { padding: 8px 16px; background: #2980b9; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #1c5980; }
+        .reto { background: #eaf6ff; border-left: 4px solid #2980b9; padding: 12px; margin-top: 24px; }
+    </style>
+    <script>
+        function mostrarMensaje() {
+            alert('¡Evento onclick ejecutado!');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Eventos en HTML</h1>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <div class="reto">
+            <strong>Reto:</strong> Agrega un evento diferente a un elemento de la página.
+        </div>
+        <p><a href="../index.html">Volver al índice</a></p>
+    </div>
+</body>
+</html>
