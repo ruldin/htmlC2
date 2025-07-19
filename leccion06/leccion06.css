@@ -1,5 +1,8 @@
-body { font-family: Arial, sans-serif; background: #f4f4f4; }
-.container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+/* Importar Bitcount Prop Double desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double&display=swap');
+
+body { font-family: 'Bitcount Prop Double', Arial, sans-serif; background: #f4f4f4; }
+.container { max-width: 600px; margin: 40px auto; background: #232b9c; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
 h1 { color: #2c3e50; }
 h2 { color: #2980b9; }
 h3 { color: #16a085; }

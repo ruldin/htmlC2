@@ -5,31 +5,62 @@
     <title>Lección 07: Estructurar el contenido</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f4f4f4; }
-        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+        .container { max-width: 800px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
         h1 { color: #2c3e50; }
         .reto { background: #eaf6ff; border-left: 4px solid #2980b9; padding: 12px; margin-top: 24px; }
         nav { background: #e3e3e3; padding: 8px; margin-bottom: 16px; }
+        header, footer { text-align: center; }
+        footer { font-size: 0.9em; color: #777; }
+        aside { background: #f9f9f9; padding: 16px; border-radius: 4px; margin-top: 24px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Estructurar el contenido</h1>
-        <nav>Menú de navegación</nav>
-        <header><h2>Encabezado principal</h2></header>
-        <section>
-            <article>
-                <h3>Artículo 1</h3>
-                <p>Contenido del artículo 1.</p>
-            </article>
-            <article>
-                <h3>Artículo 2</h3>
-                <p>Contenido del artículo 2.</p>
-            </article>
-        </section>
-        <aside>Barra lateral</aside>
-        <footer>Pie de página</footer>
+        <header>
+            <h1>Estructurar el contenido</h1>
+            <nav>Menú de navegación | <a href="#articulos">Artículos</a> | <a href="#info">Información</a></nav>
+        </header>
+        
+        <main>
+            <section id="articulos">
+                <h2>Artículos Principales</h2>
+                <article>
+                    <header>
+                        <h3>Artículo 1: Introducción a HTML Semántico</h3>
+                    </header>
+                    <p>El HTML semántico mejora la accesibilidad y el SEO de nuestras páginas web.</p>
+                    <footer><small>Publicado el 15 de enero, 2024</small></footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Artículo 2: Mejores Prácticas</h3>
+                    </header>
+                    <p>Usar las etiquetas correctas para cada tipo de contenido es fundamental.</p>
+                    <footer><small>Publicado el 20 de enero, 2024</small></footer>
+                </article>
+            </section>
+            
+            <section id="info">
+                <h2>Información Adicional</h2>
+                <p>Esta sección contiene recursos complementarios sobre estructuración semántica.</p>
+            </section>
+        </main>
+        
+        <aside>
+            <h3>Recursos</h3>
+            <ul>
+                <li>Guía de HTML5</li>
+                <li>Documentación MDN</li>
+                <li>Accesibilidad Web</li>
+            </ul>
+        </aside>
+        
+        <footer>
+            <p>&copy; 2024 - Curso de Desarrollo Web | Todos los derechos reservados</p>
+        </footer>
+        
         <div class="reto">
-            <strong>Reto:</strong> Reorganiza el contenido usando diferentes etiquetas semánticas.
+            <strong>Reto completado:</strong> El contenido ha sido reorganizado usando etiquetas semánticas como main, section, article con headers y footers anidados, y aside con contenido relevante.
         </div>
         <p><a href="../index.html">Volver al índice</a></p>
     </div>
