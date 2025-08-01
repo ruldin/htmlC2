@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Compilado de Lecciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #0001;
+            padding: 32px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .leccion {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Compilado de Lecciones</h1>
+
+        <div class="leccion">
+            <h2>Lección 01</h2>
+            <div>
+                <h1>¿Qué es HTML y para qué sirve?</h1>
+                <p>HTML (Lenguaje de Marcado de Hipertexto) es el lenguaje principal para crear páginas web. Permite
+                    estructurar el contenido usando "etiquetas" que el navegador interpreta para mostrar texto,
+                    imágenes, enlaces y más.</p>
+                <p>Por ejemplo, este texto está dentro de una etiqueta <code>&lt;p&gt;</code>.</p>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un nuevo párrafo explicando para qué te gustaría usar HTML.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 02</h2>
+            <div>
+                <h1>¿Cómo son los elementos HTML?</h1>
+                <p>Un elemento HTML tiene una etiqueta de apertura, contenido y una etiqueta de cierre. Por ejemplo:</p>
+                <pre><code>&lt;p&gt;Este es un párrafo&lt;/p&gt;</code></pre>
+                <p>Algunos elementos no tienen cierre, como <code>&lt;img&gt;</code>.</p>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un nuevo elemento HTML y descríbelo en un comentario.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 03</h2>
+            <div>
+                <h1>Estructura básica del archivo HTML</h1>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Título de la página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Contenido --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                <div class="reto">
+                    <strong>Reto:</strong> Cambia el título de la página y agrega un favicon diferente.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 04</h2>
+            <div>
+                <h1>¿Qué es el DOM?</h1>
+                <p>El DOM (Modelo de Objetos del Documento) es la representación estructurada de una página web. Permite
+                    a los lenguajes de programación (como JavaScript) acceder y modificar el contenido, estructura y
+                    estilos de la página.</p>
+                <div class="dom">
+                    <strong>Ejemplo:</strong>
+                    <ul>
+                        <li>HTML: <code>&lt;p&gt;Hola Mundo&lt;/p&gt;</code></li>
+                        <li>DOM: <code>document.createElement('p')</code></li>
+                    </ul>
+                </div>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un nuevo nodo al DOM usando HTML (por ejemplo, un nuevo párrafo).
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 05</h2>
+            <div>
+                <h1>Atributos en HTML</h1>
+                <p>Los atributos proporcionan información adicional sobre los elementos HTML. Ejemplo:</p>
+                <pre><code>&lt;a href="https://www.ejemplo.com" target="_blank"&gt;Ir a ejemplo.com&lt;/a&gt;</code></pre>
+                <p>Otros atributos comunes: <code>id</code>, <code>class</code>, <code>src</code>, <code>alt</code>.</p>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega atributos a los elementos y observa los cambios en la página.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 06</h2>
+            <div>
+                <h1>Etiquetas para texto y CSS</h1>
+                <h2>Ejemplo de etiquetas de texto</h2>
+                <h3>Subtítulo</h3>
+                <p>Este es un <strong>párrafo</strong> con <em>énfasis</em> y un <span class="resaltado">span
+                        resaltado</span>.</p>
+                <p>Salto de línea<br>Ejemplo de <code>&lt;br&gt;</code></p>
+                <div class="reto">
+                    <strong>Reto:</strong> Cambia los estilos de los textos usando el archivo CSS.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 07</h2>
+            <div>
+                <h1>Estructurar el contenido</h1>
+                <nav>Menú de navegación</nav>
+                <header>
+                    <h2>Encabezado principal</h2>
+                </header>
+                <section>
+                    <article>
+                        <h3>Artículo 1</h3>
+                        <p>Contenido del artículo 1.</p>
+                    </article>
+                    <article>
+                        <h3>Artículo 2</h3>
+                        <p>Contenido del artículo 2.</p>
+                    </article>
+                </section>
+                <aside>Barra lateral</aside>
+                <footer>Pie de página</footer>
+                <div class="reto">
+                    <strong>Reto:</strong> Reorganiza el contenido usando diferentes etiquetas semánticas.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 08</h2>
+            <div>
+                <h1>Incrustar contenido</h1>
+                <p>Ejemplo de imagen:</p>
+                <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="Logo HTML5">
+                <p>Ejemplo de video:</p>
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un video o imagen diferente usando las etiquetas correspondientes.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 09</h2>
+            <div>
+                <h1>Tablas en HTML</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ana</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>Juan</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total: 2 personas</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega una fila o columna nueva a la tabla.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 10</h2>
+            <div>
+                <h1>Formularios en HTML</h1>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario"></textarea>
+                    <label for="opcion">Opción:</label>
+                    <select id="opcion" name="opcion">
+                        <option value="1">Opción 1</option>
+                        <option value="2">Opción 2</option>
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un campo nuevo al formulario.
+                </div>
+            </div>
+        </div>
+
+        <div class="leccion">
+            <h2>Lección 11</h2>
+            <div>
+                <h1>Eventos en HTML</h1>
+                <button onclick="alert('¡Evento onclick ejecutado!')">Haz clic aquí</button>
+                <div class="reto">
+                    <strong>Reto:</strong> Agrega un evento diferente a un elemento de la página.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
